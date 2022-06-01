@@ -4,22 +4,13 @@ body {
     overflow-x: hidden;
 }
 
-
-/*===BACKGROUND COLOR ===*/
-
 .bg-dark-blue {
     background-color: var(--dark-blue);
 }
 
-
-/*=== FONT FAMILY ==*/
-
 .font-1 {
     font-family: var(--font-1);
 }
-
-
-/*=== COLOR ===*/
 
 .color-grey {
     color: var(--grey);
