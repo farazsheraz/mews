@@ -37,10 +37,6 @@ a:hover {
     color: var(--primary-color);
 }
 
-a:hover svg {
-    fill: var(--primary-color) !important;
-}
-
 
 /*MEWNS */
 
@@ -84,6 +80,10 @@ a:hover svg {
 
 .social a:hover {
     color: var(--primary-color) !important;
+}
+
+.social a:hover svg path:first-child {
+    fill: var(--primary-color) !important;
 }
 
 

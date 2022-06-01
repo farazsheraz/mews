@@ -7,16 +7,8 @@ body {
 
 /*===BACKGROUND COLOR ===*/
 
-.bg-black {
-    background-color: var(--black);
-}
-
-.bg-grey {
-    background-color: var(--grey);
-}
-
-.bg-dark-grey {
-    background-color: var(--dark-grey);
+.bg-dark-blue {
+    background-color: var(--dark-blue);
 }
 
 
@@ -24,64 +16,6 @@ body {
 
 .font-1 {
     font-family: var(--font-1);
-}
-
-.font-2 {
-    font-family: var(--font-2);
-}
-
-
-/*=== BUTTON & LINK(anchor)===*/
-
-.btn-1 {
-    border-radius: 28.5px;
-    background: transparent;
-    border: 2px solid;
-    color: #fff;
-    text-transform: uppercase;
-    padding: 1rem 3rem;
-    font-family: var(--font-1);
-}
-
-.btn-1:hover,
-.btn-2:hover {
-    background: #fff;
-    color: var(--black);
-    border-color: var(--black);
-}
-
-.btn-2 {
-    border-radius: 28.5px;
-    background: linear-gradient(#828282 0%, #b2b2b2 100%);
-    width: 187px;
-    height: 55px;
-}
-
-.link-btn {
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-family: var(--font-1);
-}
-
-.link-btn:hover {
-    text-decoration: underline;
-    color: #fff;
-}
-
-
-/*=== FONT-SIZE ===*/
-
-.fs-65 {
-    font-size: clamp(32.5px, 3.5vw + 1rem, 65px);
-}
-
-.fs-53 {
-    font-size: clamp(27.5px, 2.5vw + 1rem, 53px);
-}
-
-.fs-23 {
-    font-size: clamp(17.5px, 0.5vw + 1rem, 23px);
 }
 
 
@@ -103,55 +37,10 @@ body {
     color: var(--primary-color);
 }
 
-
-/*=== Z-index ===*/
-
-.index-1 {
-    z-index: 1;
+.fw-600 {
+    font-weight: 600;
 }
 
-
-/*=== Radius ===*/
-
-.rounded-10 {
-    border-radius: 10px;
-}
-
-.rounded-30 {
-    border-radius: 30px;
-}
-
-
-/* Line Height */
-
-.line-height-30 {
-    line-height: 30px;
-}
-
-.line-height-40 {
-    line-height: 40px;
-}
-
-
-/* Huzaifa */
-
-
-/* Object Fit */
-
-.fit-cover {
-    object-fit: cover;
-}
-
-
-/* Border Color Gray */
-
-.border-gray {
-    border-color: #707070 !important;
-}
-
-
-/* Background Color Gray */
-
-.bg-gray {
-    background-color: #515151;
+.fw-400 {
+    font-weight: 400;
 }
