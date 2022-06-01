@@ -69,13 +69,17 @@ a:hover {
     padding: 10px 40px;
 }
 
-.button--primary,
-.button--secondary:hover {
+.button--primary {
     background-color: var(--primary-color);
     border: 2px solid transparent;
     border-radius: 30px;
     color: #fff !important;
     padding: 10px 30px;
+}
+
+.button--secondary:hover {
+    background-color: var(--primary-color);
+    color: #fff !important;
 }
 
 .social a:hover {
