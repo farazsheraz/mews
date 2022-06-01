@@ -1,0 +1,11 @@
+@import url('http://fonts.cdnfonts.com/css/axiforma');
+:root {
+    --primary-color: #ff5e64;
+    --font-1: 'Axiforma';
+    /* --font-1: 'Lora', serif;
+    --font-2: 'Playfair Display', serif;
+    --black: #000000;
+    --grey: #9a9a9a;
+    --dark-grey: #1c1c1c;
+    --color-green: #4bc44d; */
+}

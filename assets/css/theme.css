@@ -1,0 +1,104 @@
+@import url(utility.css);
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-1);
+    background-color: var(--black);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+::placeholder {
+    color: #fff !important;
+}
+
+input:focus,
+input:focus-visible,
+input:focus-within {
+    box-shadow: none !important;
+    outline: 0 !important;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+a:hover svg {
+    fill: var(--primary-color) !important;
+}
+
+
+/*MEWNS */
+
+.banner {
+    background-image: url("../images/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.supertitle.dot:before {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    left: 2px;
+    border-radius: 50%;
+    top: 7px;
+    background-color: var(--primary-color);
+}
+
+.button--secondary {
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.button--primary,
+.button--secondary:hover {
+    background-color: var(--primary-color);
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: #fff !important;
+    padding: 10px 30px;
+}
+
+.social a:hover {
+    color: var(--primary-color) !important;
+}
+
+
+/*===== NAVBAR ====*/
+
+
+/*=== MEDIA QUERY ===*/
+
+@media screen and (min-width: 992px) {}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (max-width: 1399px) {}
+
+@media (max-width: 1199px) {}
+
+
+/*=== MEDIA QUERY END===*/
