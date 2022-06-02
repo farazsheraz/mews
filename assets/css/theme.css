@@ -96,13 +96,12 @@ a:hover {
 
 /*=== MEDIA QUERY ===*/
 
-@media screen and (min-width: 992px) {}
-
-@media screen and (min-width: 768px) {}
-
-@media screen and (max-width: 1399px) {}
-
-@media (max-width: 1199px) {}
+@media screen and (max-width: 992px) {
+    .button--secondary {
+        padding: 8px 20px !important;
+        margin: 20px 0 !important;
+    }
+}
 
 
 /*=== MEDIA QUERY END===*/
