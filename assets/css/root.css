@@ -1,6 +1,48 @@
-@import url('http://fonts.cdnfonts.com/css/axiforma');
+@import url('http://fonts.cdnfonts.com/css/maison-neue');
+@font-face {
+    font-family: 'Euclid Square';
+    src: url('../font/EuclidSquare-Light.eot');
+    src: local('Euclid Square Light'), local('EuclidSquare-Light'), url('../font/EuclidSquare-Light.eot?#iefix') format('embedded-opentype'), url('../font/EuclidSquare-Light.woff2') format('woff2'), url('../font/EuclidSquare-Light.woff') format('woff'), url('../font/EuclidSquare-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Square';
+    src: url('../font/EuclidSquare-Medium.eot');
+    src: local('Euclid Square Medium'), local('EuclidSquare-Medium'), url('../font/EuclidSquare-Medium.eot?#iefix') format('embedded-opentype'), url('../font/EuclidSquare-Medium.woff2') format('woff2'), url('../font/EuclidSquare-Medium.woff') format('woff'), url('../font/EuclidSquare-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Square';
+    src: url('../font/EuclidSquare-Regular.eot');
+    src: local('Euclid Square Regular'), local('EuclidSquare-Regular'), url('../font/EuclidSquare-Regular.eot?#iefix') format('embedded-opentype'), url('../font/EuclidSquare-Regular.woff2') format('woff2'), url('../font/EuclidSquare-Regular.woff') format('woff'), url('../font/EuclidSquare-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Square';
+    src: url('../font/EuclidSquare-SemiBold.eot');
+    src: local('Euclid Square SemiBold'), local('EuclidSquare-SemiBold'), url('../font/EuclidSquare-SemiBold.eot?#iefix') format('embedded-opentype'), url('../font/EuclidSquare-SemiBold.woff2') format('woff2'), url('../font/EuclidSquare-SemiBold.woff') format('woff'), url('../font/EuclidSquare-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Square';
+    src: url('../font/EuclidSquare-Bold.eot');
+    src: local('Euclid Square Bold'), local('EuclidSquare-Bold'), url('../font/EuclidSquare-Bold.eot?#iefix') format('embedded-opentype'), url('../font/EuclidSquare-Bold.woff2') format('woff2'), url('../font/EuclidSquare-Bold.woff') format('woff'), url('../font/EuclidSquare-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 :root {
     --primary-color: #ff5e64;
-    --font-1: 'Axiforma';
+    --font-1: 'Maison Neue', sans-serif;
+    --font-2: 'Euclid Square', sans-serif;
+    --blue: #325EBE;
     --dark-blue: #252336;
 }

@@ -1,15 +1,18 @@
 @import url(root.css);
-html,
-body {
-    overflow-x: hidden;
-}
-
 .bg-dark-blue {
     background-color: var(--dark-blue);
 }
 
 .font-1 {
     font-family: var(--font-1);
+}
+
+.font-2 {
+    font-family: var(--font-2);
+}
+
+.color-blue {
+    color: var(--blue);
 }
 
 .color-grey {
